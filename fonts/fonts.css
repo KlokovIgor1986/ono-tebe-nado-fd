@@ -1,17 +1,120 @@
 @font-face {
   font-family: Raleway;
-  src:
-    url(./Raleway-Regular.woff2) format('woff2'),
-    url(./Raleway-Regular.woff) format('woff');
+  src: url(./Raleway-Regular.woff2) format("woff2"),
+    url(./Raleway-Regular.woff) format("woff");
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: Raleway;
-  src:
-    url(./Raleway-Bold.woff2) format('woff2'),
-    url(./Raleway-Bold.woff) format('woff');
+  src: url(./Raleway-Bold.woff2) format("woff2"),
+    url(./Raleway-Bold.woff) format("woff");
   font-weight: bold;
   font-display: swap;
+}
+
+/* font */
+
+.font--regular-smal {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.font--regular-medium {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.font--regular-large {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.font--bold-large {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.font--bold-very_large {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.font--bold-ultra_large {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+}
+
+.font--card-color {
+  color: #fff;
+}
+
+/* text */
+
+.text--underline-thick-low {
+  text-decoration: underline currentColor solid 1px;
+  text-underline-offset: 0.22em;
+}
+
+.text--underline-thick {
+  text-decoration: underline currentColor solid 1px;
+  text-underline-offset: 0.14em;
+}
+
+.text--no-decoration {
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.text--word-spacing-current {
+  word-spacing: 0.8em;
+}
+
+.text--word-spacing-wide {
+  word-spacing: 0.9em;
+}
+
+.text--caps {
+  text-transform: uppercase;
+}
+
+.text--compact {
+  letter-spacing: 0;
+}
+
+.text--line-height-min-fixed {
+  line-height: 24px;
+}
+
+.text--line-height-medium-fixed {
+  line-height: 24.3px;
+}
+
+.text--line-height-max-fixed {
+  line-height: 28px;
+}
+
+.text--line-height-min {
+  line-height: 100%;
+}
+
+.text--line-height-medium {
+  line-height: 119%;
+}
+
+.text--line-height-max {
+  line-height: 120%;
+}
+
+.text--heading {
+  line-height: 115%;
+  letter-spacing: 0.3em;
 }
