@@ -53,6 +53,10 @@
   font-size: 100px;
 }
 
+.font--zero {
+  font-size: 0;
+}
+
 .font--card-color {
   color: #fff;
 }
@@ -75,7 +79,7 @@
 }
 
 .text--word-spacing-current {
-  word-spacing: 0.8em;
+  word-spacing: 0.84em;
 }
 
 .text--word-spacing-wide {
